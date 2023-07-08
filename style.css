@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+.title{
+   display: flex;
+   justify-content: center;
+   background-color: bisque;
+   padding: 20px;
+}
+
+.details{
+    padding: 5%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.12),0 2px 3px rgba(0,0,0,0.24);
+    padding-top: 20px;
+    padding-bottom: 2px;
+    margin: 25px;
+    width: 25%;
+    height: 320px;
+    margin-top: 40px;
+   
+}
+
+.details > h4{
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+.details > h4:first-of-type{
+    padding-top: 60px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    background-color: beige;
+}
+
+.top > img{
+    margin-top: 39px;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.12),0 2px 3px rgba(0,0,0,0.24);
+}
+
+span{
+    font-style: italic;
+    color: rgb(75, 85, 223);
+}
+
+.para{
+    padding-left: 15%;
+    padding-right: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    background-color:azure;
+}
+
+.quote{
+    background-color: thistle;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 20px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.list{
+    background-color: rgb(247, 239, 203);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    
+}
